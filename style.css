@@ -37,11 +37,12 @@ p {
 .external_link {
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    column-gap: 16px;
+    row-gap: 6px;
 }
 .external_link a {
     font-size: 1.4rem;
-    padding: 12px 0;
+    padding: 6px 0;
 }
 a {
     text-decoration: none;
