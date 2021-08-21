@@ -130,11 +130,11 @@ a svg  .path{
     width: 100%;
     stroke-dashoffset: 265;
     stroke-width: 0.5;
+    transition: stroke 1s, stroke-width 1s, stroke-dasharray 3s, stroke-offset 1s;
  }
 a:hover svg  .path{
     stroke: #275EFE;
     stroke-width: 1.5;
-    transition: stroke 1s, stroke-width 1s, stroke-dasharray 300ms, stroke-offset 300ms;
     animation: dash 1s ease-out;
 }
   
