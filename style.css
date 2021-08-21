@@ -112,3 +112,38 @@ a svg {
     }
     
 }
+.link {
+    position: relative;
+}
+.link_hover {
+    fill: none;
+    position: absolute;
+    right: -16px;
+    width: 100%;
+}
+ .link_hoer {
+     display: none;
+ }
+
+a svg  .path{
+    stroke-dasharray: 320;
+    width: 100%;
+    stroke-dashoffset: 265;
+    stroke-width: 0.5;
+ }
+a:hover svg  .path{
+    stroke: #275EFE;
+    stroke-width: 1.5;
+    transition: stroke 1s, stroke-width 1s, stroke-dasharray 300ms, stroke-offset 300ms;
+    animation: dash 1s ease-out;
+}
+  
+  @keyframes dash {
+    from {
+      stroke-dashoffset: 265;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+  }
+.path:
