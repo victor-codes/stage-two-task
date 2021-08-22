@@ -125,11 +125,11 @@ a svg .path {
   width: 100%;
   stroke-dashoffset: 265px;
   stroke-width: 0.5;
-  transition: stroke 1s, stroke-width 0s, stroke-dasharray 1s,
-    stroke-dashoffset 1s ease-in;
 }
 a:hover svg .path {
-  stroke-width: 1.5;
+  transition: stroke 1s, stroke-width 0s, stroke-dasharray 1s,
+  stroke-dashoffset 1s ease-in;
+  stroke-width: 1;
   animation: dash 1s ease-out;
 }
 
